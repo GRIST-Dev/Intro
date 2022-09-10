@@ -4,6 +4,7 @@ GRIST (Global-to-Regional Integrated forecast SysTem) is a unified model system 
 GRIST is developed to explore the possibility of unification in response to a broad need &/ voice for unified weather and climate modeling. In practice, because global weather and climate modeling differ significantly in terms of their spatial and temporal scales, the so-called unification is pursued following two routes: (i) to maximize the possibility of constructing weather and climate models using a single model framework and dynamical core; (ii) to maximize the possibility of using a unified model formulation with minimum application-specific changes for weather-to-climate forecast applications that are relevant to most operational business demands.
 
 ## Overview
+### Multi-purpose global modeling
 The multi-purpose modeling capabilities of GRIST are organized in terms of "working mode".  
 
 GRIST has 2 major working modes for global three-dimensional atmosphere modeling and forecast:  
@@ -27,6 +28,18 @@ GRIST has 3 minor working modes, i.e., Shallow Water Model, Single-Column Model,
 2. Zhang, Y., (2018), Extending High-Order Flux Operators on Spherical Icosahedral Grids and Their Applications in the Framework of a Shallow Water Model. Journal of Advances in Modeling Earth Systems, 10(1), 145-164.doi:10.1002/2017MS001088.  
 #### Single-Column Model (SCM)
 ...
+
+### Unstructured grid
+<p align="left">
+  <img src = "pic/icos-cube.jpg">
+  Standardized element and connectivity for grid flexibility   
+</p>
+
+### Switchable hydrostatic and nonhydrostatic modeling 
+<p align="left">
+  <img src = "pic/hdc-ndc.png">
+  With proper configurations, the hydrostatic and nonhydrostatic models of GRIST generate very consistent solutions for relatively coarse grid spacing   
+</p>
 
 ## Applications
 ### GRIST for DYAMOND global storm-resolving simulations
