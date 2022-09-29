@@ -47,6 +47,13 @@ GRIST has 3 minor working modes, i.e., Shallow Water Model, Single-Column Model,
   With proper configurations, the hydrostatic and nonhydrostatic models of GRIST generate very consistent solutions for relatively coarse grid spacing   
 </p>
 
+### Global multi-resolution forecast 
+<p align="left">
+  <img src = "pic/vr.jpg">
+   7.20 torrential rainfall event, Henan province, China. Forecasts produced by GRIST (HDC: hydrostatic; NDC: nonhydrostaic)   
+   The unstructured grid allows GRIST to be configured as a multi-resolution global model, so as to support regional km-scale forecast within a global model.   
+</p>
+
 ## Applications
 ### GRIST for DYAMOND global storm-resolving simulations
 https://easy.gems.dkrz.de/DYAMOND/Winter/index.html  
