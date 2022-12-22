@@ -1,7 +1,5 @@
 ## About
-GRIST (Global-to-Regional Integrated forecast SysTem) is a unified model system for global weather and climate modeling. It is currently being jointly developed by model developers at Chinese Academy of Meteorological Sciences, PIESAT Information Technology Co Ltd, Tsinghua University, CMA Earth System Modeling and Prediction center,... etc.  
-
-GRIST is developed to explore the possibility of unification in response to a broad need &/ voice for unified weather and climate modeling. In practice, because global weather and climate modeling differ significantly in terms of their spatial and temporal scales, the so-called unification is pursued following two routes: (i) to maximize the possibility of constructing weather and climate models using a single model framework and dynamical core; (ii) to maximize the possibility of using a unified model formulation with minimum application-specific changes for weather-to-climate forecast applications that are relevant to most operational business demands.
+GRIST (Global-to-Regional Integrated forecast SysTem) is a unified model system for global weather and climate modeling. It is developed to explore the possibility of unification, in response to a broad need, voice for unified weather and climate modeling. In practice, because global weather and climate modeling differ significantly in terms of their spatial and temporal scales, the so-called unification is pursued following two routes: (i) to maximize the possibility of constructing weather and climate models using a single model framework and dynamical core; (ii) to maximize the possibility of using a unified model formulation with minimum application-specific changes for weather-to-climate forecast applications that are relevant to most operational business demands.
 
 ## Overview
 ### Multi-purpose global modeling
@@ -14,10 +12,13 @@ GRIST-AMIPC: this setup couples GRIST with a comprehensive, long-term climate-mo
 1. Zhang, Y., R. Yu, J. Li, X. Li, X. Rong, X. Peng, and Y. Zhou, (2021), AMIP Simulations of a Global Model for Unified Weather-Climate Forecast: Understanding Precipitation Characteristics and Sensitivity Over East Asia. Journal of Advances in Modeling Earth Systems, 13(11), e2021MS002592.doi:https://doi.org/10.1029/2021MS002592.   
 2. Zhou, Y., Y. Zhang, J. Li, R. Yu, and Z. Liu, (2020), Configuration and evaluation of a global unstructured mesh atmospheric model (GRIST-A20.9) based on the variable-resolution approach. Geosci. Model Dev., 13(12), 6325-6348.doi:10.5194/gmd-13-6325-2020.   
 3. Zhang, Y., X. Li, Z. Liu, X. Rong, J. Li, Y. Zhou, and S. Chen, (2022), Resolution Sensitivity of the GRIST Nonhydrostatic Model from 120 to 5 km (3.75 km) during the DYAMOND winter. Earth and Space Science.  
+4. 陈苏阳, 张祎, 周逸辉, 李晓涵, 王一鸣, 陈昊明. GRIST模式夏季气候回测试验中东亚降水季节内特征的评估[J]. 气象学报. doi: 10.11676/qxxb2023.20220120. 
 ...
+
 #### AMIPC
 1. Li, X., Y. Zhang, X. Peng, W. Chu, Y. Lin, and J. Li, (2022), Improved Climate Simulation by Using a Double-Plume Convection Scheme in a Global Model. Journal of Geophysical Research: Atmospheres, 127(11), e2021JD036069.doi:https://doi.org/10.1029/2021JD036069.   
-2. ...
+2. Li, Xiaohan,Yi Zhang, Yanluan Lin, Xindong Peng, Baiquan ZHOU, Panmao Zhai, Jian Li. 2022: Impact of a revised trigger-closure of the double-plume convective parameterization on precipitation simulation over East Asia. Adv. Atmos. Sci.,  https://doi.org/10.1007/s00376-022-2225-9.  
+...
 
 GRIST has 3 minor working modes, i.e., Shallow Water Model, Single-Column Model, DTP (Dycore-Tracer-Physics) model for isolated testing of individual component.  
 #### Dycore-Tracer-Physics (DTP) model
@@ -29,7 +30,8 @@ GRIST has 3 minor working modes, i.e., Shallow Water Model, Single-Column Model,
 2. Zhang, Y., (2018), Extending High-Order Flux Operators on Spherical Icosahedral Grids and Their Applications in the Framework of a Shallow Water Model. Journal of Advances in Modeling Earth Systems, 10(1), 145-164.doi:10.1002/2017MS001088.  
 #### Single-Column Model (SCM)
 1. Li, X., Zhang, Y., Peng, X., and Li, J.: Using a single column model (SGRIST1.0) for connecting model physics and dynamics in the Global-to-Regional Integrated forecast SysTem (GRIST-A20.8), Geosci. Model Dev. Discuss., 2020, 1-28, 10.5194/gmd-2020-254, 2020.  
-2. ...
+2. Li, J., X. Peng, X. Li, Y. Lin, and W. Chu, 2021: Evaluation of a Flexible Single Ice Microphysics and a Gaussian Probability-Density-Function Macrophysics Scheme in a Single Column Model. Atmosphere.  
+
 #### Computing Infrastructure
 1. Liu, Z., Zhang, Y., Huang, X., Li, J., Wang, D., Wang, M., and Huang, X.: Development and performance optimization of a parallel computing infrastructure for an unstructured-mesh modelling framework, Geosci. Model Dev. Discuss., 2020, 1-32, 10.5194/gmd-2020-158, 2020.  
 2. Wang, T., L. Zhuang, J. M. Kunkel, S. Xiao, and C. Zhao, 2020: Parallelization and I/O Performance Optimization of a Global Nonhydrostatic Dynamical Core Using MPI. Computers, Materials & Continua, 63.  
@@ -78,7 +80,7 @@ https://easy.gems.dkrz.de/DYAMOND/Winter/index.html
 <p align="left">
   <img src = "pic/amipc.png">
 </p>
-  Fig. 4 Cross-lag correlation of outgoing longwave radiation during the boreal winter to reflect MJO's propagation. Conventional global climate simulations at 1-degree.  
+  Fig. 4 Cross-lag correlation of outgoing longwave radiation during the boreal winter to reflect MJO's propagation. Conventional global climate simulations at 1-degree. 
 
 ## TermsAndConditions
 The model code can be accessed by anyone who has interest. As a simple registration procedure, please just send a username (github) to grist_dev@163.com so as to activate access authority if wanted.  
