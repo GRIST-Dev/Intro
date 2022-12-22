@@ -1,4 +1,6 @@
 ## About
+GRIST（全球-区域一体化预测系统）是用于全球天气、气候建模的一体化数值模型系统。它的开发动机是为了探索模式一体化的可能性，以响应天气-气候一体化模型研发的广泛需求及呼吁。在实践中，由于全球天气和气候模型在应用的空间和时间尺度上存在显著差异，所谓的一体化遵循以下两条路线展开：（i）最大限度地利用单一模型框架和动力内核构建天气和气候模式；（ii）最大限度地使用一套“无缝”模式构造用于与大多数天气-气候预测业务需求相关的应用实践。  
+
 GRIST (Global-to-Regional Integrated forecast SysTem) is a unified model system for global weather and climate modeling. It is developed to explore the possibility of unification, in response to a broad need, voice for unified weather and climate modeling. In practice, because global weather and climate modeling differ significantly in terms of their spatial and temporal scales, the so-called unification is pursued following two routes: (i) to maximize the possibility of constructing weather and climate models using a single model framework and dynamical core; (ii) to maximize the possibility of using a unified model formulation with minimum application-specific changes for weather-to-climate forecast applications that are relevant to most operational business demands.
 
 ## Overview
@@ -12,7 +14,7 @@ GRIST-AMIPC: this setup couples GRIST with a comprehensive, long-term climate-mo
 1. Zhang, Y., R. Yu, J. Li, X. Li, X. Rong, X. Peng, and Y. Zhou, (2021), AMIP Simulations of a Global Model for Unified Weather-Climate Forecast: Understanding Precipitation Characteristics and Sensitivity Over East Asia. Journal of Advances in Modeling Earth Systems, 13(11), e2021MS002592.doi:https://doi.org/10.1029/2021MS002592.   
 2. Zhou, Y., Y. Zhang, J. Li, R. Yu, and Z. Liu, (2020), Configuration and evaluation of a global unstructured mesh atmospheric model (GRIST-A20.9) based on the variable-resolution approach. Geosci. Model Dev., 13(12), 6325-6348.doi:10.5194/gmd-13-6325-2020.   
 3. Zhang, Y., X. Li, Z. Liu, X. Rong, J. Li, Y. Zhou, and S. Chen, (2022), Resolution Sensitivity of the GRIST Nonhydrostatic Model from 120 to 5 km (3.75 km) during the DYAMOND winter. Earth and Space Science.  
-4. 陈苏阳, 张祎, 周逸辉, 李晓涵, 王一鸣, 陈昊明. GRIST模式夏季气候回测试验中东亚降水季节内特征的评估[J]. 气象学报. doi: 10.11676/qxxb2023.20220120. 
+4. 陈苏阳, 张祎, 周逸辉, 李晓涵, 王一鸣, 陈昊明. GRIST模式夏季气候回测试验中东亚降水季节内特征的评估[J]. 气象学报. doi: 10.11676/qxxb2023.20220120.   
 ...
 
 #### AMIPC
